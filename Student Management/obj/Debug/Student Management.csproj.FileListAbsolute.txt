@@ -1,0 +1,41 @@
+D:\Project\Special Project\Student Management\Student Management\bin\Debug\Hostel Management System.exe.config
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Hostel Management System.exe
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Hostel Management System.pdb
+D:\Project\Special Project\Student Management\Student Management\bin\Debug\Hostel Management System.exe
+D:\Project\Special Project\Student Management\Student Management\bin\Debug\Hostel Management System.pdb
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.AddDefaulter.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.AddEmergencyData.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.AddEmployee.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.AddPhoneNumber.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.AddStudent.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Administrator_account_management.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Administrator_Login.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Change.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.ComplaintBook.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.ComplaintCreate.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.ComplaintDatabase.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.DataEditor.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Defaulter.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.EmergencyDatabase.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.EmployeeDatabase.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.EmployeeLog.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.LeaveLog.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.LoGBook.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.LogViewer.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.login_adm.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.MainScreen.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Media_Player.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Password_Management.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.PhoneDatabse.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Properties.Resources.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.StudentDatabase.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.StudentLog.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.User_Account_Management.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.LogScreen.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.DefaulterDatabase.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.VisitorLog.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.LogOut.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\Student_Management.Workpage.resources
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\ResGen.read.1.tlog
+D:\Project\Special Project\Student Management\Student Management\obj\Debug\ResGen.write.1.tlog

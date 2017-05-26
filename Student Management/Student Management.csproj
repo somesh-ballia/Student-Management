@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{057AFBD5-2DEF-4E6F-9806-0C0C59E4608A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Student_Management</RootNamespace>
+    <AssemblyName>Hostel Management System</AssemblyName>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationIcon>binoculars_128.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\10.2.3600.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.ReportSource\10.2.3600.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Shared\10.2.3600.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="IdGenerator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents and Settings\Administrator\Desktop\IdGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDefaulter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDefaulter.Designer.cs">
+      <DependentUpon>AddDefaulter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmergencyData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmergencyData.Designer.cs">
+      <DependentUpon>AddEmergencyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPhoneNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPhoneNumber.Designer.cs">
+      <DependentUpon>AddPhoneNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator_account_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator_account_management.Designer.cs">
+      <DependentUpon>Administrator_account_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator_Login.Designer.cs">
+      <DependentUpon>Administrator_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change.Designer.cs">
+      <DependentUpon>Change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplaintBook.Designer.cs">
+      <DependentUpon>ComplaintBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplaintCreate.Designer.cs">
+      <DependentUpon>ComplaintCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplaintDatabase.Designer.cs">
+      <DependentUpon>ComplaintDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEditor.Designer.cs">
+      <DependentUpon>DataEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Defaulter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Defaulter.Designer.cs">
+      <DependentUpon>Defaulter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefaulterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefaulterList.Designer.cs">
+      <DependentUpon>DefaulterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmergencyDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmergencyDatabase.Designer.cs">
+      <DependentUpon>EmergencyDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDatabase.Designer.cs">
+      <DependentUpon>EmployeeDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeLog.Designer.cs">
+      <DependentUpon>EmployeeLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoGBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoGBook.Designer.cs">
+      <DependentUpon>LoGBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogViewer.Designer.cs">
+      <DependentUpon>LogViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogOut.Designer.cs">
+      <DependentUpon>LogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveLog.Designer.cs">
+      <DependentUpon>LeaveLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_adm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_adm.Designer.cs">
+      <DependentUpon>login_adm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Media_Player.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Media_Player.Designer.cs">
+      <DependentUpon>Media_Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password_Management.Designer.cs">
+      <DependentUpon>Password_Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneDatabse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneDatabse.Designer.cs">
+      <DependentUpon>PhoneDatabse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortableData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PortableData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddDefaulter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddDefaulter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmergencyData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddEmergencyData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPhoneNumber.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddPhoneNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrator_account_management.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Administrator_account_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrator_Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Administrator_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplaintBook.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ComplaintBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplaintCreate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ComplaintCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplaintDatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ComplaintDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEditor.resx">
+      <DependentUpon>DataEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Defaulter.resx">
+      <DependentUpon>Defaulter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmergencyDatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmergencyDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmployeeDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmployeeLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaveLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LeaveLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoGBook.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoGBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_adm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>login_adm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media_Player.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Media_Player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password_Management.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Password_Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneDatabse.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PhoneDatabse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StudentDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StudentLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Account_Management.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>User_Account_Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefaulterDatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefaulterDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VisitorLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogOut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workpage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Workpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="StudentDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentDatabase.Designer.cs">
+      <DependentUpon>StudentDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentLog.Designer.cs">
+      <DependentUpon>StudentLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Account_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Account_Management.Designer.cs">
+      <DependentUpon>User_Account_Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogScreen.Designer.cs">
+      <DependentUpon>LogScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefaulterDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefaulterDatabase.Designer.cs">
+      <DependentUpon>DefaulterDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorLog.Designer.cs">
+      <DependentUpon>VisitorLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workpage.Designer.cs">
+      <DependentUpon>Workpage.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLAYMOV.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JET.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shivangi %28Small%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PortableData.xsc">
+      <DependentUpon>PortableData.xsd</DependentUpon>
+    </None>
+    <None Include="PortableData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PortableData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PortableData.xss">
+      <DependentUpon>PortableData.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\College Mountain %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="binoculars_128.ico" />
+    <Content Include="Countries.txt" />
+    <Content Include="Places.txt" />
+    <None Include="app.config" />
+    <None Include="Resources\Picture 016 %28Large%29.jpg" />
+    <None Include="Resources\LOGO 1.jpg" />
+    <Content Include="States.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

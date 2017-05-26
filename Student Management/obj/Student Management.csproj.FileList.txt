@@ -1,0 +1,40 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Student_Management.Properties.Resources.resources
+obj\Debug\Student Management.csproj.GenerateResource.Cache
+obj\Debug\Student_Management.Administrator_Login.resources
+obj\Debug\Student_Management.MainScreen.resources
+obj\Debug\Student_Management.login_adm.resources
+obj\Debug\Student_Management.Password_Management.resources
+obj\Debug\Student_Management.Administrator_account_management.resources
+obj\Debug\Student_Management.User_Account_Management.resources
+obj\Debug\Student_Management.Workpage.resources
+obj\Debug\Student_Management.Media_Player.resources
+obj\Debug\Student_Management.AddStudent.resources
+obj\Debug\Student_Management.StudentLog.resources
+obj\Debug\Student_Management.EmployeeLog.resources
+obj\Debug\Student_Management.VisitorLog.resources
+obj\Debug\Student_Management.LeaveLog.resources
+obj\Debug\Student_Management.ComplaintBook.resources
+obj\Debug\Student_Management.LogScreen.resources
+obj\Debug\Student_Management.LogOut.resources
+obj\Debug\Student_Management.AddEmployee.resources
+obj\Debug\Student_Management.Change.resources
+obj\Debug\Student_Management.Defaulter.resources
+obj\Debug\Student_Management.DataEditor.resources
+obj\Debug\Student_Management.StudentDatabase.resources
+obj\Debug\Student_Management.EmployeeDatabase.resources
+obj\Debug\Student_Management.DefaulterDatabase.resources
+obj\Debug\Student_Management.AddDefaulter.resources
+obj\Debug\Student_Management.PhoneDatabse.resources
+obj\Debug\Student_Management.EmergencyDatabase.resources
+obj\Debug\Student_Management.ComplaintCreate.resources
+obj\Debug\Student_Management.ComplaintDatabase.resources
+bin\Debug\Hostel Management System.exe.config
+bin\Debug\Hostel Management System.exe
+bin\Debug\Hostel Management System.pdb
+obj\Debug\Hostel Management System.exe
+obj\Debug\Hostel Management System.pdb
+obj\Debug\Student_Management.AddPhoneNumber.resources
+obj\Debug\Student_Management.AddEmergencyData.resources
+obj\Debug\Student_Management.LogBook.resources
+obj\Debug\Student_Management.LogViewer.resources
